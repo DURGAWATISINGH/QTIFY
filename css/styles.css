@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/assets/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.profile-box { 
+    background-color: #ff574a;
+    /*box-sizing: border-box;*/
+    border-radius: 20px;
+    padding: 40px 90px;
+    color:#fff;
+    text-align:center;
+
+}
+
+/* Accessibility: Ensure that the element can receive focus */
+ /* This is a visual cue for keyboard users */
+ .profile-pic img{
+    border-radius: 50%;
+    width: 150px;
+    padding: 6px;
+    
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0  -50px;
+
+
+}
+
+.menu-icon {
+    width: 25px;
+}
+.settings-icon {
+    width: 25px;
+}
+
+   
+h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media img {
+    width: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
