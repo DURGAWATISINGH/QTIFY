@@ -1,7 +1,7 @@
 describe('XProfile Tests', () => {
   beforeEach(() => {
     // Visits the page before each test
-    cy.visit('http://localhost:3000/'); // Replace with your actual URL
+    cy.visit('http://13.200.19.28:8081/') // Replace with your actual URL
   });
 
   it('has the correct title', () => {
