@@ -39,7 +39,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "linux",
     "pageLoadTimeout": 60000,
-    "port": 34961,
+    "port": 33077,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -107,7 +107,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.14.2",
-  "endedTestsAt": "2024-09-11T19:51:52.862Z",
+  "endedTestsAt": "2024-09-13T19:06:08.328Z",
   "osName": "linux",
   "osVersion": "Ubuntu - ",
   "runs": [
@@ -120,44 +120,44 @@
         "passes": 5,
         "pending": 0,
         "failures": 5,
-        "start": "2024-09-11T19:51:24.579Z",
-        "end": "2024-09-11T19:51:52.868Z",
-        "duration": 28289
+        "start": "2024-09-13T19:05:40.775Z",
+        "end": "2024-09-13T19:06:08.334Z",
+        "duration": 27559
       },
       "screenshots": [
         {
           "height": 720,
           "name": null,
           "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- has functioning social media links (failed).png",
-          "takenAt": "2024-09-11T19:51:32.974Z",
+          "takenAt": "2024-09-13T19:05:48.783Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- menu and settings icons are visible (failed).png",
-          "takenAt": "2024-09-11T19:51:37.843Z",
+          "takenAt": "2024-09-13T19:05:53.639Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- has correctly styled menu and setting icons (failed).png",
-          "takenAt": "2024-09-11T19:51:42.813Z",
+          "takenAt": "2024-09-13T19:05:58.491Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- has a profile picture with the correct styles (failed).png",
-          "takenAt": "2024-09-11T19:51:47.576Z",
+          "takenAt": "2024-09-13T19:06:03.199Z",
           "width": 1280
         },
         {
           "height": 720,
           "name": null,
           "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- ensures social media images have the correct size and are clickable (failed).png",
-          "takenAt": "2024-09-11T19:51:52.326Z",
+          "takenAt": "2024-09-13T19:06:07.879Z",
           "width": 1280
         }
       ],
@@ -169,13 +169,13 @@
         "relative": "cypress/e2e/spec.cy.js"
       },
       "stats": {
-        "duration": 28295,
-        "endedAt": "2024-09-11T19:51:52.862Z",
+        "duration": 27562,
+        "endedAt": "2024-09-13T19:06:08.328Z",
         "failures": 5,
         "passes": 5,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2024-09-11T19:51:24.567Z",
+        "startedAt": "2024-09-13T19:05:40.766Z",
         "suites": 1,
         "tests": 10
       },
@@ -187,7 +187,7 @@
             }
           ],
           "displayError": null,
-          "duration": 350,
+          "duration": 399,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -201,7 +201,7 @@
             }
           ],
           "displayError": null,
-          "duration": 497,
+          "duration": 199,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -215,7 +215,7 @@
             }
           ],
           "displayError": null,
-          "duration": 190,
+          "duration": 210,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -229,7 +229,7 @@
             }
           ],
           "displayError": null,
-          "duration": 364,
+          "duration": 242,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -243,7 +243,7 @@
             }
           ],
           "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.social-media img`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:24:32)",
-          "duration": 4768,
+          "duration": 4771,
           "state": "failed",
           "title": [
             "XProfile Tests",
@@ -257,7 +257,7 @@
             }
           ],
           "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.setting-icon`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:29:28)",
-          "duration": 4687,
+          "duration": 4610,
           "state": "failed",
           "title": [
             "XProfile Tests",
@@ -271,7 +271,7 @@
             }
           ],
           "displayError": null,
-          "duration": 226,
+          "duration": 192,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -285,7 +285,7 @@
             }
           ],
           "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.setting-icon`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:42:28)",
-          "duration": 4699,
+          "duration": 4663,
           "state": "failed",
           "title": [
             "XProfile Tests",
@@ -298,8 +298,8 @@
               "state": "failed"
             }
           ],
-          "displayError": "AssertionError: Timed out retrying after 4000ms: expected '<div.profile-pic>' to have CSS property 'width' with the value '150px', but the value was '230.625px'\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:46:27)",
-          "duration": 4715,
+          "displayError": "AssertionError: Timed out retrying after 4000ms: expected '<div.profile-pic>' to have CSS property 'width' with the value '150px', but the value was '250.796875px'\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:46:27)",
+          "duration": 4647,
           "state": "failed",
           "title": [
             "XProfile Tests",
@@ -313,7 +313,7 @@
             }
           ],
           "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.social-media img`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:52:32)",
-          "duration": 4691,
+          "duration": 4573,
           "state": "failed",
           "title": [
             "XProfile Tests",
@@ -324,8 +324,8 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2024-09-11T19:51:24.567Z",
-  "totalDuration": 28295,
+  "startedTestsAt": "2024-09-13T19:05:40.766Z",
+  "totalDuration": 27562,
   "totalFailed": 5,
   "totalPassed": 5,
   "totalPending": 0,
