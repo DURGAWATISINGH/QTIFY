@@ -1,4 +1,4 @@
-body {
+  body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,8 +15,9 @@ body {
     border-radius: 20px;
     padding: 40px 90px;
     color:#fff;
-    font: 16px poppins, sans-serif;
+    font: 16px 'poppins', sans-serif;
     text-align:center;
+    box-sizing: border-box;
 
 }
 
