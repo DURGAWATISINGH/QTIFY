@@ -1,12 +1,12 @@
 describe('XProfile Tests', () => {
   beforeEach(() => {
     // Visits the page before each test
-    cy.visit('http://3.109.48.216:8081/') // Replace with your actual URL
+    cy.visit('http://3.7.250.93:8081/'); // Replace with your actual URL
   });
 
   it('has the correct title', () => {
     cy.title().should('include', 'XProfile - My Virtual Profile Card');
-  });
+  }); 
 
   it('displays a profile picture', () => {
     cy.get('.profile-pic').should('be.visible');
@@ -21,9 +21,19 @@ describe('XProfile Tests', () => {
   });
 
   it('has functioning social media links', () => {
-    cy.get('.social-media img').should('have.length', 3);
+    /*cy.get('.social-media img').should('have.length', 3);*/
+    const socialMediaUrls = [
+      'https://www.instagram.com',
+      'https://telegram.org',
+      'https://dribbble.com'
+    ];
+  cy.get('.social-media a').should('have.length', 3).each(($link, index) => {
+    cy.wrap($link).should('have.attr', 'href', socialMediaUrls[index]);
+    cy.wrap($link).click(); // Click the link
+    cy.url().should('include', socialMediaUrls[index]); // Verify the URL
+    cy.go('back'); // Go back to the profile card page
   });
-
+});
   it('menu and settings icons are visible', () => {
     cy.get('.menu-icon').should('be.visible');
     cy.get('.setting-icon').should('be.visible');
@@ -50,7 +60,13 @@ describe('XProfile Tests', () => {
 
   it('ensures social media images have the correct size and are clickable', () => {
     cy.get('.social-media img').should('have.css', 'width', '20px')
-      .and('have.css', 'cursor', 'pointer');
+      .and('have.css', 'heigth','20px','cursor', 'pointer');
+      cy.get('.social-media a').should('have.length', 3).each(($link) => {
+        cy.wrap($link).should('have.attr', 'href').and('not.be.empty'); // Ensure links are present
+        cy.wrap($link).click(); // Click the link
+        cy.url().should('include', $link.attr('href')); // Verify URL
+        cy.go('back'); // Go back to the profile card page
+      });
   });
-});
-
+  });
+  

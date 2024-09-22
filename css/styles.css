@@ -15,10 +15,9 @@
     border-radius: 20px;
     padding: 40px 90px;
     color:#fff;
-    font: 16px 'poppins', sans-serif;
     text-align:center;
-    box-sizing: border-box;
-
+    height: 430.8px;
+    width: 447px;
 }
 
 /* Accessibility: Ensure that the element can receive focus */
@@ -27,22 +26,17 @@
     border-radius: 50%;
     width: 150px;
     padding: 6px;
-    
+    background-color: #fff;
 }
 
 
 .nav {
     display: flex;
     justify-content: space-between;
-    margin: 0  -50px;
-
-
+    margin: 0 -50px;
 }
 
-.menu-icon {
-    width: 25px;
-}
-.settings-icon {
+.menu-icon,.setting-icon{
     width: 25px;
 }
 
@@ -60,10 +54,27 @@ p {
 .social-media {
     margin-top: 20px;
 }
-
 .social-media img {
     width: 20px;
-    margin: 0 10px;
+    height: 20px;
     cursor: pointer;
+    
 }
+.social-media img:hover {
+    opacity: 0.8; /* Optional visual effect */
+}
+.social-media a{
+    display: inline-block;
+}
+ 
+
+/*.footer img {
+    width: 24px;
+    height: 24px;
+}
+a.instagram, a.telegram, a.dribble {
+    cursor: pointer;
+    display: inline-block;
+}
+
 
