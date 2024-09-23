@@ -1,7 +1,7 @@
 describe('XProfile Tests', () => {
   beforeEach(() => {
     // Visits the page before each test
-    cy.visit('http://3.7.250.93:8081/'); // Replace with your actual URL
+    cy.visit('http://3.7.250.93:8081/') // Replace with your actual URL
   });
 
   it('has the correct title', () => {
@@ -23,9 +23,9 @@ describe('XProfile Tests', () => {
   it('has functioning social media links', () => {
     /*cy.get('.social-media img').should('have.length', 3);*/
     const socialMediaUrls = [
-      'https://www.instagram.com',
-      'https://telegram.org',
-      'https://dribbble.com'
+      'http://3.7.250.93:8081/')
+      'http://3.7.250.93:8081/')
+      'http://3.7.250.93:8081/')
     ];
   cy.get('.social-media a').should('have.length', 3).each(($link, index) => {
     cy.wrap($link).should('have.attr', 'href', socialMediaUrls[index]);
