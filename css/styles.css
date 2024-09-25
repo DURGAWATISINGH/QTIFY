@@ -4,77 +4,38 @@
     justify-content: center;
     height: 100vh;
     background-image: url(/assets/background.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;   
+    background-size: cover;  
+}
+ .menu {
+   display: flex;
+   justify-content: space-between;
+   margin-left: -50px;
+   margin-right: -50px;
 }
 
 .profile-box { 
     background-color: #ff574a;
     /*box-sizing: border-box;*/
     border-radius: 20px;
-    padding: 40px 90px;
+    padding: 40px 90px 40px 90px;
     color:#fff;
     text-align:center;
-    height: 430.8px;
-    width: 447px;
 }
 
 /* Accessibility: Ensure that the element can receive focus */
  /* This is a visual cue for keyboard users */
- .profile-pic img{
+ .profile-pic{
     border-radius: 50%;
     width: 150px;
     padding: 6px;
-    background-color: #fff;
 }
-
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 -50px;
-}
-
 .menu-icon,.setting-icon{
     width: 25px;
 }
-
-   
-h3 {
-    margin: 10px 0;
-    font-size: 24px;
-}
-
-p {
-    margin: 5px 0;
-    font-size: 16px;
-}
-
-.social-media {
-    margin-top: 20px;
-}
 .social-media img {
     width: 20px;
-    height: 20px;
     cursor: pointer;
     
 }
-.social-media img:hover {
-    opacity: 0.8; /* Optional visual effect */
-}
-.social-media a{
-    display: inline-block;
-}
+
  
-
-/*.footer img {
-    width: 24px;
-    height: 24px;
-}
-a.instagram, a.telegram, a.dribble {
-    cursor: pointer;
-    display: inline-block;
-}
-
-

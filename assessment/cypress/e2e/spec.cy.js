@@ -1,7 +1,7 @@
 describe('XProfile Tests', () => {
   beforeEach(() => {
     // Visits the page before each test
-    cy.visit('http://3.7.250.93:8081/') // Replace with your actual URL
+    cy.visit('http://3.110.129.157:8081/') // Replace with your actual URL
   });
 
   it('has the correct title', () => {
@@ -11,7 +11,7 @@ describe('XProfile Tests', () => {
   it('displays a profile picture', () => {
     cy.get('.profile-pic').should('be.visible');
   });
-
+});
   it('shows the correct user name', () => {
     cy.get('.profile-box h3').should('have.text', 'Learner Beaver');
   });
@@ -21,12 +21,7 @@ describe('XProfile Tests', () => {
   });
 
   it('has functioning social media links', () => {
-    /*cy.get('.social-media img').should('have.length', 3);*/
-    const socialMediaUrls = [
-      'http://3.7.250.93:8081/')
-      'http://3.7.250.93:8081/')
-      'http://3.7.250.93:8081/')
-    ];
+    cy.get('.social-media img').should('have.length', 3);
   cy.get('.social-media a').should('have.length', 3).each(($link, index) => {
     cy.wrap($link).should('have.attr', 'href', socialMediaUrls[index]);
     cy.wrap($link).click(); // Click the link
@@ -42,7 +37,7 @@ describe('XProfile Tests', () => {
   it('applies the correct styles to the profile box', () => {
     cy.get('.profile-box').should('have.css', 'background-color', 'rgb(255, 87, 74)') // Convert hex #ff574a to rgb
       .and('have.css', 'text-align', 'center')
-      .and('have.css', 'padding', '40px 90px')
+      .and('have.css', 'padding', '40px 90px 40px 90px')
       .and('have.css', 'color', 'rgb(255, 255, 255)') // #fff converted to rgb
       .and('have.css', 'border-radius', '20px');
   });
@@ -60,13 +55,12 @@ describe('XProfile Tests', () => {
 
   it('ensures social media images have the correct size and are clickable', () => {
     cy.get('.social-media img').should('have.css', 'width', '20px')
-      .and('have.css', 'heigth','20px','cursor', 'pointer');
+      .and('have.css', 'cursor', 'pointer');
       cy.get('.social-media a').should('have.length', 3).each(($link) => {
         cy.wrap($link).should('have.attr', 'href').and('not.be.empty'); // Ensure links are present
         cy.wrap($link).click(); // Click the link
         cy.url().should('include', $link.attr('href')); // Verify URL
         cy.go('back'); // Go back to the profile card page
       });
-  });
   });
   

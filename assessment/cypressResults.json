@@ -39,7 +39,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "linux",
     "pageLoadTimeout": 60000,
-    "port": 44001,
+    "port": 43153,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -107,14 +107,88 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.14.2",
-  "endedTestsAt": "2024-09-23T16:56:53.284Z",
+  "endedTestsAt": "2024-09-25T18:19:28.629Z",
   "osName": "linux",
   "osVersion": "Ubuntu - ",
   "runs": [
     {
-      "error": "Oops...we found an error preparing this test file:\n\n  > cypress/e2e/spec.cy.js\n\nThe error was:\n\nError: Webpack Compilation Error\nModule build failed (from ../../../.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/e2e/spec.cy.js: Unexpected token, expected \",\" (26:31)\n\n  24 |     /*cy.get('.social-media img').should('have.length', 3);*/\n  25 |     const socialMediaUrls = [\n> 26 |       'http://3.7.250.93:8081/')\n     |                                ^\n  27 |       'http://3.7.250.93:8081/')\n  28 |       'http://3.7.250.93:8081/')\n  29 |     ];\n    at handle (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/@packages/server/node_modules/@cypress/webpack-preprocessor/dist/index.js:212:23)\n    at finalCallback (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:441:32)\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:505:17\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/HookWebpackError.js:68:3\n    at Hook.eval [as callAsync] (eval at create (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/Hook.js:18:14)\n    at Cache.storeBuildDependencies (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Cache.js:122:37)\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:501:19\n    at Hook.eval [as callAsync] (eval at create (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:498:23\n    at Compiler.emitRecords (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:919:5)\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:490:11\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:885:14\n    at Hook.eval [as callAsync] (eval at create (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:882:27\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/neo-async/async.js:2818:7\n    at done (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/webpack/lib/Compiler.js:736:33\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/@packages/server/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/@packages/server/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/crio-user/.cache/Cypress/13.14.2/Cypress/resources/app/node_modules/@packages/server/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:192:23)\n\nThis occurred while Cypress was compiling and bundling your test code. This is usually caused by:\n\n- A missing file or dependency\n- A syntax error in the file or one of its dependencies\n\nFix the error in your code and re-run your tests.",
-      "reporterStats": null,
-      "screenshots": [],
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 9,
+        "passes": 0,
+        "pending": 0,
+        "failures": 9,
+        "start": "2024-09-25T18:18:52.507Z",
+        "end": "2024-09-25T18:19:28.646Z",
+        "duration": 36139
+      },
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/shows the correct user name (failed).png",
+          "takenAt": "2024-09-25T18:18:56.581Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/displays the correct job title (failed).png",
+          "takenAt": "2024-09-25T18:19:01.072Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/has functioning social media links (failed).png",
+          "takenAt": "2024-09-25T18:19:05.390Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/menu and settings icons are visible (failed).png",
+          "takenAt": "2024-09-25T18:19:09.686Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/applies the correct styles to the profile box (failed).png",
+          "takenAt": "2024-09-25T18:19:14.051Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/has correctly styled menu and setting icons (failed).png",
+          "takenAt": "2024-09-25T18:19:18.430Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/has a profile picture with the correct styles (failed).png",
+          "takenAt": "2024-09-25T18:19:22.812Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/ensures social media images have the correct size and are clickable (failed).png",
+          "takenAt": "2024-09-25T18:19:27.305Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- has the correct title -- before each hook (failed).png",
+          "takenAt": "2024-09-25T18:19:28.214Z",
+          "width": 1280
+        }
+      ],
       "spec": {
         "absolute": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/e2e/spec.cy.js",
         "fileExtension": ".js",
@@ -123,26 +197,159 @@
         "relative": "cypress/e2e/spec.cy.js"
       },
       "stats": {
-        "duration": 0,
-        "endedAt": "2024-09-23T16:56:53.284Z",
-        "failures": 1,
+        "duration": 36133,
+        "endedAt": "2024-09-25T18:19:28.629Z",
+        "failures": 9,
         "passes": 0,
         "pending": 0,
-        "skipped": 0,
-        "startedAt": "2024-09-23T16:56:53.284Z",
-        "suites": 0,
-        "tests": 0
+        "skipped": 1,
+        "startedAt": "2024-09-25T18:18:52.496Z",
+        "suites": 1,
+        "tests": 10
       },
-      "tests": [],
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.profile-box h3`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:16:30)",
+          "duration": 4450,
+          "state": "failed",
+          "title": [
+            "shows the correct user name"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.profile-box p`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:20:29)",
+          "duration": 4279,
+          "state": "failed",
+          "title": [
+            "displays the correct job title"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.social-media img`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:24:32)",
+          "duration": 4244,
+          "state": "failed",
+          "title": [
+            "has functioning social media links"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.menu-icon`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:33:25)",
+          "duration": 4315,
+          "state": "failed",
+          "title": [
+            "menu and settings icons are visible"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.profile-box`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:38:27)",
+          "duration": 4313,
+          "state": "failed",
+          "title": [
+            "applies the correct styles to the profile box"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.menu-icon`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:46:25)",
+          "duration": 4359,
+          "state": "failed",
+          "title": [
+            "has correctly styled menu and setting icons"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.profile-pic`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:51:27)",
+          "duration": 4413,
+          "state": "failed",
+          "title": [
+            "has a profile picture with the correct styles"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.social-media img`, but never found it.\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:57:32)",
+          "duration": 4275,
+          "state": "failed",
+          "title": [
+            "ensures social media images have the correct size and are clickable"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "failed"
+            }
+          ],
+          "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://3.110.129.157:8081/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ECONNREFUSED 3.110.129.157:8081\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `XProfile Tests`\n    at <unknown> (http://localhost:43153/__cypress/runner/cypress_runner.js:131955:74)\n    at visitFailedByErr (http://localhost:43153/__cypress/runner/cypress_runner.js:131354:12)\n    at <unknown> (http://localhost:43153/__cypress/runner/cypress_runner.js:131954:11)\n    at tryCatcher (http://localhost:43153/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:43153/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:43153/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:43153/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:43153/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:43153/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:43153/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:43153/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:43153/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:4:7)\n\nFrom Node.js Internals:\n  Error: connect ECONNREFUSED 3.110.129.157:8081\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)",
+          "duration": 948,
+          "state": "failed",
+          "title": [
+            "XProfile Tests",
+            "has the correct title"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "skipped"
+            }
+          ],
+          "displayError": null,
+          "duration": 0,
+          "state": "skipped",
+          "title": [
+            "XProfile Tests",
+            "displays a profile picture"
+          ]
+        }
+      ],
       "video": null
     }
   ],
-  "startedTestsAt": "2024-09-23T16:56:53.284Z",
-  "totalDuration": 0,
-  "totalFailed": 1,
+  "startedTestsAt": "2024-09-25T18:18:52.496Z",
+  "totalDuration": 36133,
+  "totalFailed": 9,
   "totalPassed": 0,
   "totalPending": 0,
-  "totalSkipped": 0,
-  "totalSuites": 0,
-  "totalTests": 0
+  "totalSkipped": 1,
+  "totalSuites": 1,
+  "totalTests": 10
 }
