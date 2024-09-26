@@ -1,41 +1,42 @@
-  body {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-image: url(/assets/background.png);
-    background-size: cover;  
+    background-size: cover;
 }
- .menu {
-   display: flex;
-   justify-content: space-between;
-   margin-left: -50px;
-   margin-right: -50px;
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-bottom: 20px;
 }
 
 .profile-box { 
     background-color: #ff574a;
-    /*box-sizing: border-box;*/
     border-radius: 20px;
-    padding: 40px 90px 40px 90px;
-    color:#fff;
-    text-align:center;
+    padding: 40px 90px;
+    color: #fff;
+    text-align: center;
 }
 
-/* Accessibility: Ensure that the element can receive focus */
- /* This is a visual cue for keyboard users */
- .profile-pic{
+.profile-pic {
     border-radius: 50%;
     width: 150px;
     padding: 6px;
 }
-.menu-icon,.setting-icon{
+
+.menu-icon, .setting-icon {
     width: 25px;
 }
+
+.social-media a {
+    margin: 0 10px;
+}
+
 .social-media img {
     width: 20px;
     cursor: pointer;
-    
 }
-
- 
