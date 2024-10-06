@@ -6,18 +6,10 @@ body {
     background-image: url(/assets/background.png);
     background-size: cover;
 }
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-    margin-bottom: 20px;
-}
-
 .profile-box { 
     background-color: #ff574a;
     border-radius: 20px;
-    padding: 40px 90px;
+    padding: 40px 90px 40px 90px;
     color: #fff;
     text-align: center;
 }
@@ -31,12 +23,21 @@ body {
 .menu-icon, .setting-icon {
     width: 25px;
 }
-
-.social-media a {
-    margin: 0 10px;
+  /*.menu-icon{
+    margin-left: -50px;
+  }
+  
+  .setting-icon{
+    margin-right: -50px;
+}*/
+.menu{
+display: flex;
+justify-content: space-between;
+margin-left: -50px;
+margin-right: -50px;
 }
 
 .social-media img {
-    width: 20px;
+    width: 20px;  
     cursor: pointer;
 }

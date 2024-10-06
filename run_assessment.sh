@@ -30,7 +30,7 @@ npm install
 node runCypress.js
  
 # Run Python script
-python3 process_filtered_logs.py cypressResults.json
+process_filtered_logs.py cypressResults.json
  
 # Check if assessment_result.json exists
 if [ -f "assessment_result.json" ]; then
