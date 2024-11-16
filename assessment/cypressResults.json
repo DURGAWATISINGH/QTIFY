@@ -39,7 +39,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "linux",
     "pageLoadTimeout": 60000,
-    "port": 42963,
+    "port": 34005,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -107,7 +107,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.14.2",
-  "endedTestsAt": "2024-09-26T11:56:01.569Z",
+  "endedTestsAt": "2024-11-16T11:24:10.163Z",
   "osName": "linux",
   "osVersion": "Ubuntu - ",
   "runs": [
@@ -120,16 +120,16 @@
         "passes": 0,
         "pending": 0,
         "failures": 1,
-        "start": "2024-09-26T11:55:30.857Z",
-        "end": "2024-09-26T11:56:01.577Z",
-        "duration": 30720
+        "start": "2024-11-16T11:23:39.629Z",
+        "end": "2024-11-16T11:24:10.170Z",
+        "duration": 30541
       },
       "screenshots": [
         {
           "height": 720,
           "name": null,
           "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- has the correct title -- before each hook (failed).png",
-          "takenAt": "2024-09-26T11:56:00.976Z",
+          "takenAt": "2024-11-16T11:24:09.712Z",
           "width": 1280
         }
       ],
@@ -141,13 +141,13 @@
         "relative": "cypress/e2e/spec.cy.js"
       },
       "stats": {
-        "duration": 30723,
-        "endedAt": "2024-09-26T11:56:01.569Z",
+        "duration": 30544,
+        "endedAt": "2024-11-16T11:24:10.163Z",
         "failures": 1,
         "passes": 0,
         "pending": 0,
         "skipped": 9,
-        "startedAt": "2024-09-26T11:55:30.846Z",
+        "startedAt": "2024-11-16T11:23:39.619Z",
         "suites": 1,
         "tests": 10
       },
@@ -158,8 +158,8 @@
               "state": "failed"
             }
           ],
-          "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://13.202.89.218:8081/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ETIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `XProfile Tests`\n    at <unknown> (http://localhost:42963/__cypress/runner/cypress_runner.js:131955:74)\n    at visitFailedByErr (http://localhost:42963/__cypress/runner/cypress_runner.js:131354:12)\n    at <unknown> (http://localhost:42963/__cypress/runner/cypress_runner.js:131954:11)\n    at tryCatcher (http://localhost:42963/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:42963/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:42963/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:42963/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:42963/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:42963/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:42963/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:42963/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:42963/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:4:7)\n\nFrom Node.js Internals:\n  Error: ETIMEDOUT\n      at Timeout.<anonymous> (<embedded>:445:106344)\n      at listOnTimeout (node:internal/timers:569:17)\n      at process.processTimers (node:internal/timers:512:7)",
-          "duration": 30603,
+          "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://3.110.56.36:8083/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ETIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `XProfile Tests`\n    at <unknown> (http://localhost:34005/__cypress/runner/cypress_runner.js:131955:74)\n    at visitFailedByErr (http://localhost:34005/__cypress/runner/cypress_runner.js:131354:12)\n    at <unknown> (http://localhost:34005/__cypress/runner/cypress_runner.js:131954:11)\n    at tryCatcher (http://localhost:34005/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:34005/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:34005/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:34005/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:34005/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:34005/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:34005/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:34005/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:34005/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:4:7)\n\nFrom Node.js Internals:\n  Error: ETIMEDOUT\n      at Timeout.<anonymous> (<embedded>:445:106344)\n      at listOnTimeout (node:internal/timers:569:17)\n      at process.processTimers (node:internal/timers:512:7)",
+          "duration": 30456,
           "state": "failed",
           "title": [
             "XProfile Tests",
@@ -296,8 +296,8 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2024-09-26T11:55:30.846Z",
-  "totalDuration": 30723,
+  "startedTestsAt": "2024-11-16T11:23:39.619Z",
+  "totalDuration": 30544,
   "totalFailed": 1,
   "totalPassed": 0,
   "totalPending": 0,
