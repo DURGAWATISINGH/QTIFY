@@ -39,7 +39,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "linux",
     "pageLoadTimeout": 60000,
-    "port": 36135,
+    "port": 33161,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -107,7 +107,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.14.2",
-  "endedTestsAt": "2024-11-17T09:49:36.780Z",
+  "endedTestsAt": "2024-11-17T11:17:03.063Z",
   "osName": "linux",
   "osVersion": "Ubuntu - ",
   "runs": [
@@ -120,9 +120,9 @@
         "passes": 10,
         "pending": 0,
         "failures": 0,
-        "start": "2024-11-17T09:49:10.407Z",
-        "end": "2024-11-17T09:49:36.786Z",
-        "duration": 26379
+        "start": "2024-11-17T11:16:37.079Z",
+        "end": "2024-11-17T11:17:03.070Z",
+        "duration": 25991
       },
       "screenshots": [],
       "spec": {
@@ -133,13 +133,13 @@
         "relative": "cypress/e2e/spec.cy.js"
       },
       "stats": {
-        "duration": 26385,
-        "endedAt": "2024-11-17T09:49:36.780Z",
+        "duration": 25995,
+        "endedAt": "2024-11-17T11:17:03.063Z",
         "failures": 0,
         "passes": 10,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2024-11-17T09:49:10.395Z",
+        "startedAt": "2024-11-17T11:16:37.068Z",
         "suites": 1,
         "tests": 10
       },
@@ -151,7 +151,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2460,
+          "duration": 2414,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -165,7 +165,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2324,
+          "duration": 2383,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -179,7 +179,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2332,
+          "duration": 2228,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -193,7 +193,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2333,
+          "duration": 2277,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -207,7 +207,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2274,
+          "duration": 2268,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -221,7 +221,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2263,
+          "duration": 2265,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -235,7 +235,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2321,
+          "duration": 2327,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -249,7 +249,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2350,
+          "duration": 2295,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -263,7 +263,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2269,
+          "duration": 2342,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -277,7 +277,7 @@
             }
           ],
           "displayError": null,
-          "duration": 2274,
+          "duration": 2268,
           "state": "passed",
           "title": [
             "XProfile Tests",
@@ -288,8 +288,8 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2024-11-17T09:49:10.395Z",
-  "totalDuration": 26385,
+  "startedTestsAt": "2024-11-17T11:16:37.068Z",
+  "totalDuration": 25995,
   "totalFailed": 0,
   "totalPassed": 10,
   "totalPending": 0,
