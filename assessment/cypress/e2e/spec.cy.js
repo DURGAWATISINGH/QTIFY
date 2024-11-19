@@ -17,10 +17,12 @@ describe('XProfile Tests', () => {
     cy.get('.profile-box h3').should('have.text', 'Learner Beaver');
   });
 
-  
+
   it('displays the correct job title', () => {
     cy.get('.profile-box p').should('have.text', 'Frontend Dev at CrioDo, Bengaluru');
   });
+
+  
 
   it('has functioning social media links', () => {
     cy.get('.social-media img').should('have.length', 3);
