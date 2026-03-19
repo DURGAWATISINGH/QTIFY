@@ -33,7 +33,7 @@ node runCypress.js
 python3 process_filtered_logs.py cypressResults.json
  
 # Check if assessment_result.json exists
-if [ -f "assessment_result.json" ]; then
+if [ -f "assesment_result.json" ]; then
     cp assessment_result.json ..
     echo "Assessment results generated"
 else
