@@ -1,7 +1,7 @@
 describe('XProfile Tests', () => {
   beforeEach(() => {
     // Visits the page before each test and waits for assets to load
-    cy.visit('http://13.126.168.83:8083/') // Replace with your actual URL
+    cy.visit('http://13.203.24.239:8081/') // Replace with your actual URL
     cy.wait(2000); // Wait 2 seconds to ensure the page is fully loaded
   });
 
