@@ -39,7 +39,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "linux",
     "pageLoadTimeout": 60000,
-    "port": 36335,
+    "port": 44929,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -74,10 +74,10 @@
         "channel": "stable",
         "displayName": "Chrome",
         "family": "chromium",
-        "majorVersion": "119",
+        "majorVersion": "132",
         "name": "chrome",
         "path": "google-chrome",
-        "version": "119.0.6045.159"
+        "version": "132.0.6834.159"
       },
       {
         "channel": "stable",
@@ -107,7 +107,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "13.14.2",
-  "endedTestsAt": "2024-11-24T18:57:30.650Z",
+  "endedTestsAt": "2026-06-25T16:32:54.065Z",
   "osName": "linux",
   "osVersion": "Ubuntu - ",
   "runs": [
@@ -116,15 +116,23 @@
       "reporter": "spec",
       "reporterStats": {
         "suites": 1,
-        "tests": 10,
-        "passes": 10,
+        "tests": 1,
+        "passes": 0,
         "pending": 0,
-        "failures": 0,
-        "start": "2024-11-24T18:57:04.370Z",
-        "end": "2024-11-24T18:57:30.657Z",
-        "duration": 26287
+        "failures": 1,
+        "start": "2026-06-25T16:32:52.945Z",
+        "end": "2026-06-25T16:32:54.073Z",
+        "duration": 1128
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/screenshots/spec.cy.js/XProfile Tests -- has the correct title -- before each hook (failed).png",
+          "takenAt": "2026-06-25T16:32:53.564Z",
+          "width": 1280
+        }
+      ],
       "spec": {
         "absolute": "/home/crio-user/workspace/durgawatisingh8888-ME_FE_BUILDOUT_XPROFILE/assessment/cypress/e2e/spec.cy.js",
         "fileExtension": ".js",
@@ -133,13 +141,13 @@
         "relative": "cypress/e2e/spec.cy.js"
       },
       "stats": {
-        "duration": 26298,
-        "endedAt": "2024-11-24T18:57:30.650Z",
-        "failures": 0,
-        "passes": 10,
+        "duration": 1130,
+        "endedAt": "2026-06-25T16:32:54.065Z",
+        "failures": 1,
+        "passes": 0,
         "pending": 0,
-        "skipped": 0,
-        "startedAt": "2024-11-24T18:57:04.352Z",
+        "skipped": 9,
+        "startedAt": "2026-06-25T16:32:52.935Z",
         "suites": 1,
         "tests": 10
       },
@@ -147,12 +155,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "failed"
             }
           ],
-          "displayError": null,
-          "duration": 2441,
-          "state": "passed",
+          "displayError": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://13.203.24.239:8081/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ECONNREFUSED 13.203.24.239:8081\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `XProfile Tests`\n    at <unknown> (http://localhost:44929/__cypress/runner/cypress_runner.js:131955:74)\n    at visitFailedByErr (http://localhost:44929/__cypress/runner/cypress_runner.js:131354:12)\n    at <unknown> (http://localhost:44929/__cypress/runner/cypress_runner.js:131954:11)\n    at tryCatcher (http://localhost:44929/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44929/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:44929/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:44929/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:44929/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:44929/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:44929/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:44929/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:44929/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://xcounter/./cypress/e2e/spec.cy.js:4:7)\n\nFrom Node.js Internals:\n  Error: connect ECONNREFUSED 13.203.24.239:8081\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)",
+          "duration": 1025,
+          "state": "failed",
           "title": [
             "XProfile Tests",
             "has the correct title"
@@ -161,12 +169,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2416,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "displays a profile picture"
@@ -175,12 +183,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2268,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "shows the correct user name"
@@ -189,12 +197,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2256,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "displays the correct job title"
@@ -203,12 +211,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2282,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "has functioning social media links"
@@ -217,12 +225,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2279,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "menu and settings icons are visible"
@@ -231,12 +239,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2357,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "applies the correct styles to the profile box"
@@ -245,12 +253,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2312,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "has correctly styled menu and setting icons"
@@ -259,12 +267,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2284,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "has a profile picture with the correct styles"
@@ -273,12 +281,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "skipped"
             }
           ],
           "displayError": null,
-          "duration": 2304,
-          "state": "passed",
+          "duration": 0,
+          "state": "skipped",
           "title": [
             "XProfile Tests",
             "ensures social media images have the correct size and are clickable"
@@ -288,12 +296,12 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2024-11-24T18:57:04.352Z",
-  "totalDuration": 26298,
-  "totalFailed": 0,
-  "totalPassed": 10,
+  "startedTestsAt": "2026-06-25T16:32:52.935Z",
+  "totalDuration": 1130,
+  "totalFailed": 1,
+  "totalPassed": 0,
   "totalPending": 0,
-  "totalSkipped": 0,
+  "totalSkipped": 9,
   "totalSuites": 1,
   "totalTests": 10
 }
