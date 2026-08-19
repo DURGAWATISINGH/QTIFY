@@ -4,6 +4,8 @@ import "./Hero.css";
 function Hero() {
   return (
     <div className="hero">
+      <h1>100 Thousand Songs, ad-free</h1>
+
       <img
         className="heroImage"
         src={heroImage}
