@@ -1,13 +1,6 @@
-import logo from "../assests/Group 1.png";
-import "./Logo.css"
-function Logo() {
-  return (
-    <img
-      className="logo"
-      src={logo}
-      alt="QTify Logo"
-    />
-  );
-}
+import React from "react";
+import LogoImage from "../../assets/logo.png";
 
-export default Logo;
+export default function Logo() {
+  return <img src={LogoImage} alt="logo" width={67} />;
+}

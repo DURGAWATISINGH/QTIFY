@@ -1,15 +1,10 @@
 .hero {
-    width: 1440px;
+    background-color: var(--color-black);
     height: 270px;
-    top: 74px;
-    background-color: #121212;
-    position: relative;
-}
-
-.heroImage {
-    width: 799px;
-    height: 212px;
-    top: 103px;
-    left: 327px;
-    position: absolute;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  
